@@ -2,7 +2,7 @@ install:
 	@brew install fswatch hugo sassc typescript
 
 styles:
-	sassc --sass --style compressed source/styles/main.sass static/styles/main.css
+	sass --style compressed source/styles/main.sass static/styles/main.css
 
 styles-watch:
 	@fswatch source/styles 'make styles'
