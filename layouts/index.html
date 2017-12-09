@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+  <body>
+    <header>
+      <h1>68 KEYS</h1>
+    </header>
+    <section id="features">
+      <ul>
+        <li>
+          <div class="features-feature">
+            <i class="icon-icon icon-code x2"></i>
+            Programmable<span>TMK Firmware</span>
+          </div>
+        </li>
+        <li>
+          <div class="features-feature">
+            <i class="icon-icon icon-layers-3 x2"></i>
+            Aluminium Case<span>Sandwich Style</span>
+          </div>
+        </li>
+        <li>
+          <div class="features-feature">
+            <i class="icon-icon icon-cherry x2"></i>
+            Cherry MX<span>Any Switch Color</span>
+          </div>
+        </li>
+        <li>
+          <div class="features-feature">
+            <i class="icon-icon icon-puzzle-10 x2"></i>
+            Over 230 Parts<span>Much Fun!</span>
+          </div>
+        </li>
+        <!-- <li>120 <span>100 EUR</span></li> -->
+      </ul>
+    </section>
+    <section id="content">
+      <h2>Build Your Own Custom <span>68% Mechanical Keyboard</span></h2>
+      <ul id="menu">
+        <li><a href="/case">Case</a></li>
+        <li><a href="/board">Board</a></li>
+      </ul>
+      <section class="wrapper">
+        {{ .Content }}
+      </section>
+    </section>
+
+    {{ partial "footer.html" . }}
+  </body>
+<html>

@@ -1,0 +1,139 @@
+#content
+  font-family: Raleway, sans-serif
+  padding: 40px 0 0 0
+
+  @media all and (min-width: 630px)
+    padding: 60px 0 0 0
+
+  h3
+    margin: 40px 0 15px 0
+
+  h4
+    margin: 30px 0 10px 0
+
+  h2
+    text-align: center
+    margin: 0 auto
+    font-family: 'Saira', sans-serif
+    font-size: 26px
+    font-weight: 600
+    max-width: 380px
+    padding: 0 20px
+    margin-bottom: 40px
+
+    @media all and (min-width: 440px)
+      font-size: 30px
+      max-width: 420px
+
+    @media all and (min-width: 630px)
+      font-size: 40px
+      max-width: 600px
+
+    @media all and (min-width: 1000px)
+      margin-bottom: 35px
+      font-size: 46px
+      max-width: 650px
+  
+  .wrapper
+    padding: 0 25px
+    margin: 0 auto
+    max-width: 700px
+    font-size: 16px
+    font-weight: 400
+    line-height: 25px
+
+    @media all and (min-width: 440px)
+      padding: 0 40px
+    @media all and (min-width: 630px)
+      font-size: 18px
+      line-height: 29px
+    @media all and (min-width: 800px)
+      max-width: 760px
+    @media all and (min-width: 1000px)
+      max-width: 900px
+      font-size: 20px
+      line-height: 34px
+
+    img
+      max-width: 100%
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+      display: block
+    
+      & + img
+        margin-top: 20px
+
+    p + ul, ul + p, p + p, p + pre, pre + p, p + .gallery
+      margin-top: 20px
+
+    .gallery + p
+      margin-top: 20px
+
+    .gallery-half
+      @media all and (min-width: 800px)
+        padding: 0 0 0 0
+        width: 100%
+        text-align: center
+
+        .clear
+          clear: both
+
+        img
+          width: 330px
+          float: left
+          margin-left: 20px
+          margin-bottom: 20px
+
+          &:nth-child(odd)
+            margin-left: 0px
+          &:nth-last-child(-n+2)
+            margin-bottom: 0px
+
+          & + img
+            margin-top: 0px
+      @media all and (min-width: 1000px)
+        img
+          width: 390px
+          float: left
+          margin-left: 40px
+          margin-bottom: 40px
+
+          &:nth-child(odd)
+            margin-left: 0px
+
+    pre
+      background-color: #e2e2e2
+      padding: 12px 16px 4px 16px
+      border-radius: 5px
+
+    code
+      max-width: 100%
+      overflow: scroll
+      font-family: Fira Mono
+      line-height: 23px
+      font-size: 13px
+      padding-bottom: 8px
+
+      @media all and (min-width: 630px)
+        font-size: 16px
+        line-height: 26px
+
+    li
+      span
+        display: block
+        font-size: 13px
+        line-height: 15px
+        color: #666666
+        padding-bottom: 5px
+
+        @media all and (min-width: 440px)
+          font-size: 14px
+          line-height: 17px
+
+    a
+      color: #811919
+      font-weight: 600
+      text-decoration: none
+
+      &:hover
+        color: #4D0F0F
+

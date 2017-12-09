@@ -1,0 +1,73 @@
+#menu
+  display: none
+  text-align: center
+  padding-bottom: 45px
+
+  &.sticky
+    position: fixed
+    background-color: #DDD
+    width: 100%
+    top: 0
+    padding-bottom: 0px
+
+  ul
+    margin: 0 auto
+
+  li
+    display: inline
+
+    & + li
+      padding-left: 3px
+
+      &::before
+        content: '-'
+        color: #adadad
+        font-weight: 300
+        letter-spacing: 0.09em
+        font-size: 20px
+
+  a
+    color: #811919
+    display: inline-block
+    font-family: Raleway, sans-serif
+    font-weight: 300
+    text-decoration: none
+    margin-left: 6px
+    text-transform: uppercase
+    letter-spacing: 0.09em
+    transition: color 0.2s linear
+    font-size: 18px
+
+    &:hover
+      color: #3d0c0c
+
+  @media all and (min-width: 440px)
+    li + li
+      padding-left: 5px
+
+      &::before
+        font-size: 24px
+    a
+      margin-left: 6px
+      font-size: 20px
+
+  @media all and (min-width: 630px)
+    li + li
+      padding-left: 5px
+
+      &::before
+        font-size: 28px
+
+    a
+      margin-left: 6px
+      font-size: 24px
+
+  @media all and (min-width: 1000px)
+    li + li
+      padding-left: 10px
+
+      &::before
+        font-size: 32px
+    a
+      margin-left: 11px
+      font-size: 28px
