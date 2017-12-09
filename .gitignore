@@ -4,3 +4,4 @@ public
 static/scripts
 static/styles/*.css
 static/styles/*.css.map
+node_modules
