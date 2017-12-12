@@ -1,8 +1,9 @@
 ---
-title: Legal Information
----
 
-<!-- The [68Keys.io](https://68keys.io) website is a personal project from [@sbstjn](https://twitter.com/sbstjn) created winter 2017. -->
+title: Legal Information
+image: /images/header.jpg
+
+---
 
 ### Publisher
 

@@ -1,7 +1,8 @@
 .DS_Store
 .sass-cache
 public
-static/scripts
+static/scripts/*.js
+static/scripts/*.js.map
 static/styles/*.css
 static/styles/*.css.map
 node_modules

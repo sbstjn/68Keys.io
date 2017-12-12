@@ -1,10 +1,12 @@
 DefaultContentLanguage: en
 baseURL: https://68Keys.io/
-title: Custom 68% Mechanical Keyboard - 68Keys.io
+title: 68Keys.io
 
 disableHugoGeneratorInject: true
-disableRSS: true
-disable404: true
+
+disableKinds:
+  - RSS
+  - 404
 
 enableRobotsTXT: true
 

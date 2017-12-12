@@ -1,0 +1,50 @@
+.container {
+  background: white;
+  padding-bottom: 2em;
+}
+
+img[src*="/images/"] {
+  cursor: zoom-in;
+}
+
+div.ml_box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(75, 75, 75, 0.95);
+  cursor: -webkit-zoom-out;  
+  text-align: center;
+}
+
+div.ml_box img {
+  max-width: 90%;
+  max-height: 90%;
+  vertical-align: middle;
+  margin: auto;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: zoom-out;
+  cursor: -webkit-zoom-out;
+  border-radius: 4px;
+}
+
+div.ml_box .animated,
+div.ml_box.animated {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.container img {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.animated {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
