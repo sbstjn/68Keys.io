@@ -6,4 +6,8 @@ image: /images/header.jpg
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies cursus egestas. Vestibulum porttitor et massa at tincidunt. Vestibulum euismod, erat vitae pharetra gravida, velit sapien tempus risus, et condimentum eros ex sit amet lorem. Donec purus ex, vehicula nec est eget, venenatis feugiat arcu. Aenean ac ligula nec magna sagittis congue. Sed eget semper lorem. Quisque mattis, quam ac ullamcorper luctus, libero odio porta ligula, a eleifend nisl lacus vel lorem. Maecenas vestibulum lectus massa, sit amet lacinia ligula aliquet id. Phasellus non eros id tortor luctus posuere.
+Welcome, Bonjour, and Moin! With the content on [68Keys.io](https://68keys.io), you will be able to build your own 68% custom mechanical keyboard! Sounds great, right?
+
+You will find all information about the needed **Circuit Board**, **Aluminium Case**, and customizable **TMK firmware** on this site. With the detailed shopping list, you can start ordering parts and dive into building your mechanical keyboard right away.
+
+In the meantime, follow the [project on Twitter](https://twitter.com/68keys) to get all updates …
