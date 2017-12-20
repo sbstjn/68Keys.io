@@ -1,9 +1,9 @@
-console.log('68keys.io')
+declare var domready: any
 
 domready(() => {
   const bar = document.getElementById('bar')
   const content = document.querySelector('.content')
-  const toggle = document.getElementById('menu-toggle')
+  const toggle = <HTMLInputElement>document.getElementById('menu-toggle')
 
   const barChecker = () => {
     if (!bar || !content || !toggle) {
