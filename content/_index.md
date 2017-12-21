@@ -7,7 +7,7 @@ aliases:
   - /guide
 ---
 
-Welcome, Bonjour, and Moin! With the content on [68Keys.io][1] you can build your own 68% custom mechanical keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [TMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your own mechanical keyboard right away. Have fun!
+Welcome, Bonjour, and Moin! With the content on [68Keys.io][1], you can build your own 68% custom mechanical keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [TMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your own mechanical keyboard right away. Have fun!
 
 {{% gallery "half" %}}
 
