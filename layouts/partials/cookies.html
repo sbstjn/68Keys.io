@@ -1,13 +1,13 @@
-<div id="cookies">
+<div class="cookie-info">
   <div class="wrapper">
     <p>This website uses <a href="/legal/#about-cookies">cookies</a> to ensure you get the best experience!</p>
-    <button id="cookies-hide">Got it!</button>
+    <button>Got it!</button>
   </div>
 </div>
 
 <script>
   function cookieHandler() {
-    document.querySelector('#cookies').className = ''
+    document.querySelector('.cookie-info').className = 'cookie-info'
 
     var d = new Date();
     d.setTime(d.getTime() + (120*24*60*60*1000));
@@ -16,9 +16,9 @@
   }
 
   if (!document.cookie.match(/^(.*;)?\s*HideCookieNotice\s*=\s*[^;]+(.*)?$/)) {
-    document.querySelector('#cookies').className = 'show'
+    document.querySelector('.cookie-info').className = 'cookie-info show'
 
-    var button = document.querySelector('#cookies-hide')
+    var button = document.querySelector('.cookie-info button')
     
     button.addEventListener('click', cookieHandler)
     button.addEventListener('touchend', cookieHandler)
