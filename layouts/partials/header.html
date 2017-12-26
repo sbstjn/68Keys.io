@@ -9,7 +9,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1">
 <meta name="author" content="sbstjn">
 
-<style>{{ readFile "static/styles/main.css" | safeCSS }}</style>
+{{ if eq (getenv "HUGO_ENV") "dev" }}
+  <link href="/styles/main.css" media="all" rel="stylesheet" />
+{{ else }}
+  <style>{{ readFile "static/styles/main.css" | safeCSS }}</style>
+{{ end }}
 
 <link rel="canonical" href="{{ .URL | absLangURL }}">
 
