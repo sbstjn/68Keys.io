@@ -9,6 +9,9 @@
   display: none
   text-align: center
 
+  @media all and (min-width: 800px)
+    padding-bottom: 5px
+
   &.show
     display: block
 
@@ -30,7 +33,7 @@
   p
     margin: 0px 0 20px 0
 
-    @media all and (min-width: 620px)
+    @media all and (min-width: 440px)
       float: left
       text-align: left
       padding: 0 20px 0 0
@@ -43,17 +46,6 @@
 
     &:hover
       color: rgb(224, 224, 224)
-
-    &:before
-      @media all and (max-width: 529px)
-        content: ' '
-        padding-top: 2px
-        display: block
-      @media all and (min-width: 1000px)
-        padding-top: 2px
-        content: ' '
-        display: block
-
 
   button
     color: rgb(255, 255, 255)
@@ -73,8 +65,11 @@
     &:hover
       background: #9C3936
 
-    @media all and (min-width: 620px)
+    @media all and (min-width: 440px)
       position: relative
       top: 5px
       display: inline-block
       width: 19%
+
+    @media all and (min-width: 800px)
+      top: -6px
