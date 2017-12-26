@@ -1,0 +1,80 @@
+#cookies
+  color: rgb(214, 214, 214)
+  background-color: rgb(39, 39, 39)
+  font-family: Raleway, sans-serif
+  font-size: 16px
+  line-height: 1.5em
+  padding: 20px 0
+  overflow: hidden
+  display: none
+  text-align: center
+
+  &.show
+    display: block
+
+  .wrapper
+    padding: 0 25px
+    margin: 0 auto
+    max-width: 700px
+    font-size: 16px
+    font-weight: 400
+    line-height: 25px
+
+    @media all and (min-width: 440px)
+      padding: 0 40px
+    @media all and (min-width: 800px)
+      max-width: 760px
+    @media all and (min-width: 1000px)
+      max-width: 900px
+
+  p
+    margin: 0px 0 20px 0
+
+    @media all and (min-width: 620px)
+      float: left
+      text-align: left
+      padding: 0 20px 0 0
+      margin: 0
+      width: 80%
+
+  a
+    color: rgb(194, 194, 194)
+    text-decoration: underline
+
+    &:hover
+      color: rgb(224, 224, 224)
+
+    &:before
+      @media all and (max-width: 529px)
+        content: ' '
+        padding-top: 2px
+        display: block
+      @media all and (min-width: 1000px)
+        padding-top: 2px
+        content: ' '
+        display: block
+
+
+  button
+    color: rgb(255, 255, 255)
+    background: rgb(194, 72, 67)
+    font-size: 15px
+    padding: 0
+    font-family: Raleway, sans-serif
+    line-height: 40px
+    font-weight: 700
+    cursor: pointer
+    width: 100%
+    border: 0px
+    border-radius: 5px
+    display: block
+    transition: background .2s linear
+
+    &:hover
+      background: #9C3936
+
+    @media all and (min-width: 620px)
+      position: relative
+      top: 5px
+      display: inline-block
+      width: 19%
