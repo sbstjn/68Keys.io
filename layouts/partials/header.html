@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1">
 <meta name="author" content="sbstjn">
 
-<link href="/styles/main.css" media="all" rel="stylesheet" />
+<style>{{ readFile "static/styles/main.css" | safeCSS }}</style>
 
 <link rel="canonical" href="{{ .URL | absLangURL }}">
 
@@ -30,11 +30,14 @@
   {"name":"68Keys.io","description":"{{ .Description }}","author":{"@type":"Person","name":"sbstjn"},"@type":"WebSite","url":"https://68Keys.io/","image":"https://68Keys.io/images/header.jpg","publisher":null,"headline":"Custom 68% Mechanical Keyboard","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}
 </script>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira:600|Raleway:300,400,500,600|Fira+Mono:400,500,700|Montserrat:500">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Saira:600|Raleway:300,400,500,600|Fira+Mono:400,500,700|Montserrat:500" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira:600|Raleway:300,400,500,600|Fira+Mono:400,500,700|Montserrat:500"></noscript>
 
 <script type="text/javascript">
+  /** loadcss **/
+  !function(a){"use strict";var b=function(b,c,d){function j(a){return e.body?a():void setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+  /** preload **/
+  !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
   /** domready **/
   !function(e,t){typeof module!="undefined"?module.exports=t():typeof define=="function"&&typeof define.amd=="object"?define(t):this[e]=t()}("domready",function(){var e=[],t,n=document,r=n.documentElement.doScroll,i="DOMContentLoaded",s=(r?/^loaded|^c/:/^loaded|^i|^c/).test(n.readyState);return s||n.addEventListener(i,t=function(){n.removeEventListener(i,t),s=1;while(t=e.shift())t()}),function(t){s?setTimeout(t,0):e.push(t)}})
 </script>
-
-{{ partial "cookies.html" . }}
