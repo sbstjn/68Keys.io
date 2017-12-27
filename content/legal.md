@@ -43,7 +43,7 @@ This website uses Google Analytics, a web analysis service of Google Inc. (Googl
 
 This website uses Google Analytics with the extension *anonymizeIP*, IP addresses being truncated before further processing in order to rule out direct associations to persons.
 
-#### Information about cookies
+#### About Cookies
 
 To optimize our web presence, we use cookies. These are small text files stored in your computer's main memory. These cookies are deleted after you close the browser. Other cookies remain on your computer (long-term cookies) and permit its recognition on your next visit. This allows us to improve your access to our site.
 
