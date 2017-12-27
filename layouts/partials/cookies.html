@@ -6,7 +6,8 @@
 </div>
 
 <script>
-  function cookieHandler() {
+  function cookieHandler(e) {
+    e.preventDefault()
     document.querySelector('.cookie-info').className = 'cookie-info'
 
     var d = new Date();
