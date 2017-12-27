@@ -3,9 +3,8 @@
   <head>
     {{ partial "header.html" . }}
   </head>
-  <body>
-    {{ partial "cookies.html" . }}
-    <section class="content">
+  <body class="no-teaser">
+    <section class="content single">
       <h2>{{ .Title }}</h2>
       <section class="wrapper">
         {{ .Content }}

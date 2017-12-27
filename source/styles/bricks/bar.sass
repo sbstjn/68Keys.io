@@ -1,0 +1,136 @@
+$height: 56px
+
+#bar
+  position: fixed
+  top: -1 * $height
+  left: 0
+  background-color: #272727
+  width: 100%
+  height: $height
+  padding: 0
+  opacity: 0
+  transition: all .3s linear
+
+  .wrapper
+    max-width: 700px
+    margin: 0 auto
+
+    @media all and (min-width: 440px)
+      padding: 0 15px
+
+    @media all and (min-width: 800px)
+      max-width: 760px
+    @media all and (min-width: 1000px)
+      max-width: 900px
+
+
+  i
+    color: white
+
+  .icon-menu
+    float: right
+    margin: 11px 13px
+    cursor: pointer
+    font-size: 36px
+    color: #DDD
+
+    &:hover
+      color: #fff
+  
+  .bar-twitter
+    position: relative
+    margin: 12px 0 0 12px
+    display: inline-block
+
+    .icon-twitter
+      font-size: 22px
+      line-height: 34px
+      padding: 0 8px
+      color: #DDD
+
+      &:hover
+        color: white
+
+  input
+    display: none
+
+  #bar-menu
+    transition: all .2s ease-in-out
+    max-height: 0px
+    overflow: hidden
+    color: white
+    position: fixed
+    width: 100%
+    left: 0
+    top: $height
+    background-color: #FFF
+    color: #272727
+    font-family: Raleway, sans-serif
+    opacity: .8
+
+    li
+      border-bottom: 1px solid #DDD
+    a
+      text-decoration: none
+      font-size: 20px
+      font-weight: 400
+      line-height: 45px
+      display: block
+      -webkit-font-smoothing: antialiased
+      color: #000
+      transition: padding .2s ease-in
+      letter-spacing: 0.02em
+
+      .inner
+        max-width: 700px
+        margin: 0 auto
+        padding-left: 20px
+
+        @media all and (min-width: 440px)
+          padding: 0 35px
+
+        @media all and (min-width: 800px)
+          max-width: 760px
+        @media all and (min-width: 1000px)
+          max-width: 900px
+
+      &:hover
+        color: #c24843
+        padding-left: 5px
+
+        .icon-icon
+          color: #c24843
+
+    .icon-icon
+      color: #272727
+      padding-right: 12px
+      font-size: 18px
+      position: relative
+      top: 2px
+
+  input:checked + #bar-menu
+    max-height: 230px
+    opacity: 1
+
+  #name
+    float: left
+    color: white
+    font-family: 'Saira', sans-serif
+    font-weight: 600
+    border: 2px solid white
+    text-decoration: none
+    font-size: 18px
+    border-radius: 3px
+    -webkit-font-smoothing: antialiased
+    display: inline-block
+    padding: 0px 7px
+    margin: 12px 0 0 12px
+
+  &.show
+    opacity: 1
+    transform: translateY($height)
+
+.no-teaser
+  #bar
+    opacity: 1
+    transform: translateY($height)

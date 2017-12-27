@@ -13,8 +13,8 @@ scripts:
 scripts-watch:
 	@tsc --watch
 
-run: 
-	@HUGO_ENV=dev hugo server --watch --verbose
+run:
+	@HUGO_ENV=dev hugo server --watch --verbose --bind 0.0.0.0
 
 build: styles scripts
 	@hugo
