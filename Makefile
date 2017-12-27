@@ -14,7 +14,7 @@ scripts-watch:
 	@tsc --watch
 
 run:
-	@hugo server --watch --verbose --bind 0.0.0.0
+	@HUGO_ENV=dev hugo server --watch --verbose --bind 0.0.0.0
 
 build: styles scripts
 	@hugo
