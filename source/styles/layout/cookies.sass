@@ -3,11 +3,11 @@
   background-color: rgb(39, 39, 39)
   font-family: Raleway, sans-serif
   font-size: 16px
-  line-height: 1.5em
-  padding: 20px 0
+  padding: 0
   overflow: hidden
   display: none
   text-align: center
+  padding: 20px 0
 
   @media all and (min-width: 800px)
     padding-bottom: 5px
@@ -21,7 +21,6 @@
     max-width: 700px
     font-size: 16px
     font-weight: 400
-    line-height: 25px
 
     @media all and (min-width: 440px)
       padding: 0 40px
@@ -31,7 +30,9 @@
       max-width: 900px
 
   p
-    margin: 0px 0 20px 0
+    line-height: 26px
+    display: block
+    padding: 0 20px 15px 20px
 
     @media all and (min-width: 440px)
       float: left
@@ -40,36 +41,37 @@
       margin: 0
       width: 80%
 
-  a
-    color: rgb(194, 194, 194)
-    text-decoration: underline
+    a
+      color: rgb(194, 194, 194)
+      text-decoration: underline
 
-    &:hover
-      color: rgb(224, 224, 224)
+      &:hover
+        color: rgb(224, 224, 224)
 
-  button
+  .cookie-info-dismiss
     color: rgb(255, 255, 255)
     background: rgb(194, 72, 67)
     font-size: 15px
     padding: 0
     font-family: Raleway, sans-serif
-    line-height: 40px
     font-weight: 700
     cursor: pointer
+    padding: 10px 0
     width: 100%
-    border: 0px
+    border: 0
     border-radius: 5px
+    text-decoration: none
     display: block
     transition: background .2s linear
+    position: relative
 
     &:hover
       background: #9C3936
 
     @media all and (min-width: 440px)
-      position: relative
-      top: 5px
-      display: inline-block
       width: 19%
+      display: inline-block
+      top: 7px
 
     @media all and (min-width: 800px)
       top: -6px

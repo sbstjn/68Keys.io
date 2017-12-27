@@ -1,7 +1,7 @@
 <div class="cookie-info">
   <div class="wrapper">
     <p>This website uses <a href="/legal/#about-cookies">cookies</a> to ensure you get the best experience!</p>
-    <button>Got it!</button>
+    <a href="#" class="cookie-info-dismiss">Got it!</a>
   </div>
 </div>
 
@@ -18,7 +18,7 @@
   if (!document.cookie.match(/^(.*;)?\s*HideCookieNotice\s*=\s*[^;]+(.*)?$/)) {
     document.querySelector('.cookie-info').className = 'cookie-info show'
 
-    var button = document.querySelector('.cookie-info button')
+    var button = document.querySelector('.cookie-info-dismiss')
     
     button.addEventListener('click', cookieHandler)
     button.addEventListener('touchend', cookieHandler)
