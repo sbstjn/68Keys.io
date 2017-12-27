@@ -13,10 +13,11 @@ scripts:
 scripts-watch:
 	@tsc --watch
 
-run:
-	@hugo server --watch --verbose
+run: 
+	@HUGO_ENV=dev hugo server --watch --verbose
 
 build: styles scripts
 	@hugo
+	@rm -rf public/styles/
 
 .PHONY: scripts styles install run build
