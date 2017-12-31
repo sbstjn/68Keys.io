@@ -67,15 +67,42 @@
       display: block
     
       & + img
-        margin-top: 20px
+        margin-top: 30px
 
-    p + ul, ul + p, p + p, p + pre, pre + p, p + .gallery
+    p img:only-child
+      margin: 30px 0
+
+    p + ul, ul + p, p + p, p + pre, pre + p
       margin-top: 20px
 
+    p + .gallery
+      margin-top: 25px
+
     .gallery + p
-      margin-top: 22px
+      margin-top: 30px
 
     .gallery-half
+      @media all and (min-width: 700px)
+        padding: 0 0 0 0
+        width: 100%
+        text-align: center
+
+        .clear
+          clear: both
+
+        img
+          width: 300px
+          float: left
+          margin-left: 20px
+          margin-bottom: 20px
+
+          &:nth-child(odd)
+            margin-left: 0px
+          &:nth-last-child(-n+2)
+            margin-bottom: 0px
+
+          & + img
+            margin-top: 0px
       @media all and (min-width: 800px)
         padding: 0 0 0 0
         width: 100%
@@ -85,9 +112,9 @@
           clear: both
 
         img
-          width: 330px
+          width: 325px
           float: left
-          margin-left: 20px
+          margin-left: 30px
           margin-bottom: 20px
 
           &:nth-child(odd)
