@@ -5,7 +5,7 @@ image: /images/header.jpg
 
 ---
 
-Besides the [Circuit Board](/guide/board) and [Aluminium Case](/guide/case) you can just order all parts online.
+The [Circuit Board](/guide/board) and [Aluminium Case](/guide/case) are custom parts, all other items on the list are available off-the-shelf and you find them at [eBay](#), [Amazon](#), or [Alibaba](#). Without a set of keycaps you need to invest around *95 EUR* for all parts.
 
 ### Custom Parts
 
@@ -39,4 +39,6 @@ Besides the [Circuit Board](/guide/board) and [Aluminium Case](/guide/case) you 
 
 ### Recycling
 
-If you are shocked by the parts you need to order or if you just want a plastic case instead of a the awesome [Aluminium Case](/guide/case), you can order a [MagicForce68](#) and replace the circuit board with a custom one …
+If you are shocked by the amount of parts, but still want a customizable 68% keyboard, you can order a [Magicforce68 keyboard](#) and replace the circuit board with [a custom one](/guide/board). 
+
+The folks at [keeb.io](https://keeb.io/pages/magicforce-68-mf68-pcb-replacement-build-guide) have published a great tutorial for this. Cheers! 🎉
