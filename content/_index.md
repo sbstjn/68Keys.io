@@ -53,7 +53,7 @@ All this could not exist without the great resources about mechanical keyboards 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat sagittis ligula, a pellentesque velit condimentum eget. Sed viverra laoreet massa nec porttitor. Etiam sed sem ut mauris convallis sagittis. Maecenas rhoncus molestie ex, vel tempor enim condimentum nec. In vel nisi sit amet tortor tristique dictum. Ut a arcu nisi.
 
-A huge applause goes to [Hauke][17] for hooking me up with mechanical keyboards in the beginning, all colleagues at the office that suffer from the noise, and [Julia][18] for all the awesome photos. You're the best! 😘
+A huge applause goes to [Hauke][17] for hooking me up with mechanical keyboards in the beginning, all colleagues at the office that suffer from the noise, and [Julia][18] for all the awesome photos. You guys are the best! 😘
 
 <!--
 - [Lorem Ipsum dolor sit amet](#)\

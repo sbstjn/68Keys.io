@@ -39,6 +39,4 @@ The [Circuit Board](/guide/board) and [Aluminium Case](/guide/case) are custom p
 
 ### Recycling
 
-If you are shocked by the amount of parts, but still want a customizable 68% keyboard, you can order a [Magicforce68 keyboard](#) and replace the circuit board with [a custom one](/guide/board). 
-
-The folks at [keeb.io](https://keeb.io/pages/magicforce-68-mf68-pcb-replacement-build-guide) have published a great tutorial for this. Cheers! 🎉
+If you are shocked by the amount of parts, but still want a customizable 68% keyboard? You can order a [Magicforce68 keyboard](#) and replace the circuit board with [a custom one](/guide/board). The folks at [keeb.io](https://keeb.io/pages/magicforce-68-mf68-pcb-replacement-build-guide) have published a great tutorial for this!
