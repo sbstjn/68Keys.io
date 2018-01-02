@@ -6,6 +6,12 @@
   <body class="no-teaser">
     <section class="content single">
       <h2>{{ .Title }}</h2>
+
+      {{ if isset .Params "next" }}
+        <div class="next">
+          <span>Next: <a href="{{ .Params.next.link }}">{{ .Params.next.name }}</a></span>
+        </div>
+      {{ end }}
       <section class="wrapper">
         {{ .Content }}
       </section>

@@ -41,6 +41,32 @@
       font-size: 46px
       max-width: 650px
   
+  .next
+    text-align: center
+    letter-spacing: 0.03em
+    font-size: 13px
+    top: -40px
+    position: relative
+
+    @media all and (min-width: 440px)
+      top: -62px
+    @media all and (min-width: 630px)
+      top: -85px
+      font-size: 15px
+    @media all and (min-width: 1000px)
+      font-size: 17px
+      top: -108px
+
+    a
+      font-weight: normal
+      color: #c24843
+      font-weight: 600
+      text-decoration: none
+
+      &:hover
+        color: #9C3936
+
+
   .wrapper
     padding: 0 25px
     margin: 0 auto
@@ -63,14 +89,18 @@
 
     img
       max-width: 100%
-      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
       display: block
+
+      &:not([src*="screenshot"])
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     
       & + img
-        margin-top: 30px
+        &:not([src*="screenshot"])
+          margin-top: 30px
 
     p img:only-child
-      margin: 30px 0
+      &:not([src*="screenshot"])
+        margin: 30px 0
 
     p + ul, ul + p, p + p, p + pre, pre + p
       margin-top: 20px
@@ -136,20 +166,20 @@
 
     pre
       background-color: #e2e2e2
-      padding: 12px 16px 4px 16px
+      padding: 13px 16px 4px 16px
       border-radius: 5px
 
       code
         max-width: 100%
         overflow: scroll
         font-family: Fira Mono
-        line-height: 23px
+        line-height: 22px
         font-size: 13px
         padding-bottom: 8px
 
         @media all and (min-width: 630px)
-          font-size: 16px
-          line-height: 26px
+          font-size: 15px
+          line-height: 27px
 
     li
       span

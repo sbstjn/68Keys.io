@@ -4,9 +4,42 @@ title: The Aluminium Case
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin iaculis felis at egestas.
 image: /images/header.jpg
 
+next:
+  link: /guide/board
+  name: Circuit Board
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin iaculis felis at egestas. Sed eget rutrum urna, et gravida metus. Fusce egestas fermentum felis eget consectetur. Aenean tincidunt gravida nunc vitae placerat. Suspendisse rutrum enim urna, vitae laoreet sem rutrum ac. Fusce a sapien pellentesque, dignissim ipsum quis, porta nisi. Integer orci odio, rutrum non dictum non, rhoncus pharetra neque. Proin faucibus ullamcorper nisi nec interdum.
+
+![Fourth Image](/images/case/screenshot-kle.png)
+
+Suspendisse rutrum enim urna, vitae laoreet sem rutrum ac. Fusce a sapien pellentesque, dignissim ipsum quis, porta nisi. Integer orci odio, rutrum non dictum non, rhoncus pharetra neque. Proin faucibus ullamcorper nisi nec interdum.
+
+{{% gallery "half" %}}
+
+![Fourth Image](/images/case/screenshot-kle.png)
+![Fourth Image](/images/case/screenshot-kle.png)
+
+{{% /gallery %}}
+
+Suspendisse rutrum enim urna, vitae laoreet sem rutrum ac. Fusce a sapien pellentesque, dignissim ipsum quis, porta nisi. Integer orci odio, rutrum non dictum non, rhoncus pharetra neque. Proin faucibus ullamcorper nisi nec interdum.
+
+```
+["~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"Backspace",{x:0.25},"Home","PgUp"],
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\",{x:0.25},"End","PgDn"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.75},"Shift",{x:0.25},"↑"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{x:0.5},"←","↓","→"]
+```
+
+Suspendisse rutrum enim urna, vitae laoreet sem rutrum ac. Fusce a sapien pellentesque, dignissim ipsum quis, porta nisi. Integer orci odio, rutrum non dictum non, rhoncus pharetra neque. Proin faucibus ullamcorper nisi nec interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat sagittis ligula, a pellentesque velit condimentum eget. Sed viverra laoreet massa nec porttitor. Etiam sed sem ut mauris convallis sagittis.
+
+{{% download "Aluminium Cover" "http://google.com" "DXF" "3.502 kb" %}}
+
+{{% download "Aluminium Bottom" "http://example.com" "DXF" "1.912 kb" %}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat sagittis ligula, a pellentesque velit condimentum eget. Sed viverra laoreet massa nec porttitor. Etiam sed sem ut mauris convallis sagittis.
 
 ### Sed eget rutrum urna
 
