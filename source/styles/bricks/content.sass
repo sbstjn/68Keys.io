@@ -65,7 +65,22 @@
 
       &:hover
         color: #9C3936
+      
+  small
+    font-size: 13px
+    line-height: 21px
+    color: #666666
+    display: block
 
+    @media all and (min-width: 440px)
+      font-size: 14px
+      line-height: 22px
+    @media all and (min-width: 630px)
+      font-size: 15px
+      line-height: 23px
+    @media all and (min-width: 800px)
+      font-size: 16px
+      line-height: 24px
 
   .wrapper
     padding: 0 25px
@@ -102,8 +117,11 @@
       &:not([src*="screenshot"])
         margin: 30px 0
 
-    p + ul, ul + p, p + p, p + pre, pre + p
+    p + ul, ul + p, p + p, p + pre, pre + p, p + .highlight, .highlight + p
       margin-top: 20px
+
+    ul + ul
+      margin-top: 10px
 
     p + .gallery
       margin-top: 25px
@@ -164,6 +182,19 @@
           &:nth-child(odd)
             margin-left: 0px
 
+    code.wallet
+      background-color: #e2e2e2
+      padding: 2px 8px
+      display: inline-block
+      font-size: 14px
+      border-radius: 3px
+
+      @media all and (min-width: 630px)
+        font-size: 15px
+      @media all and (min-width: 1000px)
+        padding: 2px 12px
+        font-size: 17px
+
     pre
       background-color: #e2e2e2
       padding: 13px 16px 4px 16px
@@ -182,12 +213,33 @@
           line-height: 27px
 
     li
+      &:before
+        content: ""
+        background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 24' xml:space='preserve' width='24' height='24'><path fill='#666666' d='M10,17.414L8.586,16l4-4l-4-4L10,6.586l4.707,4.707c0.391,0.391,0.391,1.023,0,1.414L10,17.414z'></path></svg>")
+        height: 30px
+        width: 20px
+        display: block
+        float: left
+        background-size: 100%
+        background-position: left 2px
+        background-repeat: no-repeat
+
+        @media all and (min-width: 630px)
+          background-position: left 5px
+        @media all and (min-width: 1000px)
+          background-position: left 7px
+
+      &:last-child
+        span
+          padding-bottom: 0px
+
       span
         display: block
+        margin-left: 20px
         font-size: 13px
-        line-height: 15px
+        line-height: 19px
         color: #666666
-        padding-bottom: 5px
+        padding-bottom: 10px
 
         @media all and (min-width: 440px)
           font-size: 14px
@@ -200,4 +252,3 @@
 
       &:hover
         color: #9C3936
-

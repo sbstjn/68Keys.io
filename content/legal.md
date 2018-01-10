@@ -1,7 +1,10 @@
 ---
 
 title: Legal Information
-image: /images/header.jpg
+description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
+
+image: /images/og/legal.jpg
+
 robots: NOINDEX, FOLLOW
 
 ---
@@ -22,7 +25,15 @@ Phone: [+49 151 54649055](tel:+4915154649055)
 
 ### License
 
-You can find all sources on [GitHub][7]. Everything is published under [BY-NC-SA Creative Commons][1]. All photos are contributed by [Julia Kestner][2] and shared with the same license.
+Everything is published using [BY-NC-SA Creative Commons][1] and source are available on [GitHub][7]. All Photos are contributed by [Julia Kestner][2] and shared with the same license.
+
+Icons are from [Nucleo][8] and used with the [Nucleo Standard License][9].
+
+### Donations
+
+If you enjoy this page and want to spread some love, [Dogecoins](http://dogecoin.com/) are much appreciated:
+
+<code class="wallet">D8mKpbfGxHgadKdgoewkmXETN4JCgj92Xw</code>
 
 ### Disclaimer
 
@@ -51,3 +62,5 @@ To optimize this web presence, these pages use [cookies][5]. These are small tex
 [5]: https://cookiesandyou.com/
 [6]: https://analytics.google.com/
 [7]: https://github.com/sbstjn/68keys.io
+[8]: https://nucleoapp.com
+[9]: https://nucleoapp.com/license
