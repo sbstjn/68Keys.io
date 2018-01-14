@@ -31,13 +31,13 @@ Icons are from [Nucleo][8] and used with the [Nucleo Standard License][9].
 
 ### Donations
 
-If you enjoy this page and want to spread some love, [Dogecoins](http://dogecoin.com/) are much appreciated:
+If you enjoyed this and want to show your love, [Dogecoins](http://dogecoin.com/) are much appreciated:
 
 <code class="wallet">D8mKpbfGxHgadKdgoewkmXETN4JCgj92Xw</code>
 
 ### Disclaimer
 
-The contents of [68Keys.io][3] have been created with the utmost care. However, I cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, I am furthermore responsible for my own content on these web pages. In this context, please note that I am accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. My obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
+The content of [68Keys.io][3] has been created with the utmost care. However, I cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, I am furthermore responsible for my own content on these web pages. In this context, please note that I am accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. My obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
 
 Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to me at the time of linking. Should any legal infringement become known to me, I will remove the respective link immediately.
 

@@ -9,7 +9,7 @@ back: true
 
 ---
 
-The [Circuit Board][board] and [Aluminium Case][case] are custom parts, all other items on the list are off-the-shelf and you find them at [eBay][ebay], [Amazon][amazon], or [Alibaba][alibaba]. Without a set of keycaps you need to invest around **70 EUR** for all parts.
+The [Printed Circuit Board][board] and [Aluminium Case][case] are the only custom parts you need to order, all other items are off-the-shelf and you can find them at [eBay][ebay], [Amazon][amazon], and [Alibaba][alibaba]. Without a set of keycaps you will spent around **80 USD** for all parts. With the optional parts you will easily hit *120 USD* and still have no keycaps&nbsp;…
 
 ### Custom Parts
 
@@ -27,9 +27,26 @@ The [Circuit Board][board] and [Aluminium Case][case] are custom parts, all othe
 {{% parts "board" %}}
 {{% parts "case" %}}
 
+### Optional Parts
+
+<small>Your keyboard will work fine without the following parts. If you want to go an extra mile with this projet, you should definitly order these items as well:</small>
+
+- Anodized Aluminium
+  <span>Price depends on your local dealer or online store</span>
+- Cherry Dampeners
+  <span>0.99 USD on [eBay](https://www.ebay.com/sch/i.html?_nkw=cherry+dampeners)</span>
+- Silicone Dampeners Oil
+  <span>2.47 USD on [eBay](https://www.ebay.com/sch/i.html?_nkw=silicone+dampeners+oil)</span>
+- Rubber Bumper Feet
+  <span>1.23 USD on [eBay](https://www.ebay.com/sch/i.html?_nkw=rubber+bumper-feet)</span>
+- Mini-USB port, 5-pin
+  <span>0.99 USD on [eBay](https://www.ebay.com/sch/i.html?_nkw=mini+usb+DIP+Jack+Connector+5-pin+right+angle)</span>
+- Mini-USB cable
+  <span>0.79 USD on [eBay](https://www.ebay.com/sch/i.html?_nkw=micro+usb+cable)</span>
+
 ### Recycling
 
-If you are shocked by the number of parts, but still want a nice keyboard with 68 keys, you can order a [Magicforce68 keyboard](https://www.aliexpress.com/item/keyboard/32471875698.html) and replace the circuit board with [a custom one](/guide/board). The folks at [keeb.io](https://keeb.io/pages/magicforce-68-mf68-pcb-replacement-build-guide) have published a great tutorial for this!
+If you don't want to spent the money and time to build an own keyboard, but still want a customizable one with 68 keys, you can order a [Magicforce68 keyboard](https://www.aliexpress.com/item/keyboard/32471875698.html) and replace the circuit board with [a custom one](/guide/board). The folks at [keeb.io](https://keeb.io/pages/magicforce-68-mf68-pcb-replacement-build-guide) have a great tutorial for this!
 
 <!--
 

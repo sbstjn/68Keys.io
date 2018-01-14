@@ -13,7 +13,7 @@ Welcome, Bonjour, and Moin! With the content on [68Keys.io][1], you can build yo
 
 ![Custom 68% Mechanical Keyboard from 68Keys.io](/images/example/one.jpg)
 
-Being an enthusiast for mechanical keyboards, I switched to 60% keyboards from [KBParadise][5] a while ago. I never regretted this decision, but all the time I had an eye on a beauty called [Varmilo VA87M][6]. When I read about the poor macOS support, I was truely disappointed and started to read about building a custom keyboard.
+Being an enthusiast for mechanical keyboards, I switched to 60% keyboards from [KBParadise][5] a while ago. I never regretted this decision, but all the time I had an eye on a beauty called [Varmilo VA87M][6]. When I read about the terrible macOS support, I was truely disappointed and started to read about building a custom keyboard.
 
 ### How To Use This Guide?
 
@@ -22,12 +22,11 @@ The content on this site is split up into three parts. Together with the [shoppi
 - [Aluminium Case][3]\
   <span>Simple, unexpensive, but beautiful *Sandwich Case* made of Aluminium.</span>
 - [Printed Circuit Boards][2]\
-  <span>Custom Printed Circuit Boards holding an Arduino with ATmega32U4 microcontroller.</span>
+  <span>Custom Printed Circuit Boards using an Arduino with ATmega32U4.</span>
 - [TMK Firmware][4]\
-  <span>Customizable keyboard firmware based on the popular and free TMK firmware.</span>
+  <span>Customizable keyboard firmware based on the popular TMK firmware.</span>
 
-
-If you are sure you have what it takes to tackle this adventure, head over to the [shopping list][7] and start ordering! When you received everything, start with building the [Aluminium Case][3] first, followed by soldering everything to the [Circuit Board][2], and finally upload the [TMK Firmware][4] to your board!
+If you are ready to tackle this adventure, head over to the [shopping list][7] and start ordering! When you received everything, start with building the [Aluminium Case][3] first, followed by soldering everything to the [Circuit Board][2], and finally load the [TMK Firmware][4] to your board!
 
 ### Requirements
 
@@ -35,13 +34,15 @@ I expect you already have a couple of things, most noteable a screw driver and a
 
 ### License
 
-This guide is published using the [BY-NC-SA Creative Commons][8] license and you can use all information and resources free of charge! I would love to hear your [feedback on twitter][9]. Just send me a message and attach a photo of your keyboard. All sources are available on [GitHub][10], please submit a [Pull Request][11] or file an [Issue][12] if you notice something strange on these pages.
+This guide is published using the [BY-NC-SA Creative Commons][8] license and you can use all information and resources free of charge. However, I would love to hear your [feedback on twitter][9]!
 
-### Thank You
+All sources are available on [GitHub][10], please submit a [Pull Request][11] or file an [Issue][12] if you notice something strange on these pages.
 
-All this could not exist without the great resources about mechanical keyboards already available online. Most noteable the [Keyboard Layout Editor][13], [Keyboard Case Builder][14], [Gerber files for the PCB][15], [TMK firmware][16], and many more.
+### Thank You!
 
-A huge applause goes to [Hauke][17] for hooking me up with mechanical keyboards, my colleagues at the office that suffer from the noise, and [Julia][18] for all the awesome photos. You guys are the best! 😘
+All this content would not exist without the great resources about mechanical keyboards already available online. Most noteable the [Keyboard Layout Editor][13], [Keyboard Case Builder][14], [Gerber files for the PCB][15], [TMK firmware][16], and many more.
+
+A huge applause goes to [Hauke][17] for hooking me up with mechanical keyboards, my colleagues at the office that suffer from the clicky noise, and [Julia][18] for all the awesome photos. You guys are the best! 😘
 
 [1]: /
 [2]: /guide/board/

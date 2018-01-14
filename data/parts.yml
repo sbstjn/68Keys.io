@@ -3,16 +3,12 @@ board:
     link: https://www.ebay.com/sch/i.html?_nkw=Pro+Micro+Leonardo+5V+16M+ATmega32U4
     shop: eBay
     price: 4.90 USD
-  - name: USB to Mini/Micro-USB cable
-    link: https://www.ebay.com/sch/i.html?_nkw=mini+usb+cable
+  - name: USB to Micro-USB cable
+    link: https://www.ebay.com/sch/i.html?_nkw=micro+usb+cable
     shop: eBay
     price: 0.79 USD
   - name: Push Button, 4-pin 6x6x5
     link: https://www.ebay.com/sch/i.html?_nkw=4+pin+push+button+6x6x5
-    shop: eBay
-    price: 0.99 USD
-  - name: Mini-USB port, 5-pin ( optional )
-    link: https://www.ebay.com/sch/i.html?_nkw=mini+usb+DIP+Jack+Connector+5-pin+right+angle
     shop: eBay
     price: 0.99 USD
   - name: Diodes, 1N4148 ( 68x )

@@ -5,10 +5,20 @@ description: Compile your custom TMK Firmware to power your 68% Mechanical Keybo
 
 image: /images/og/guide/firmware.jpg
 
-next:
-  link: /parts
-  name: Shopping List
+back: true
 
 ---
 
 Lorem.
+
+### Dependencies
+
+### Keyboard Layout
+
+### Upload Firmware
+
+### Thanks!
+
+Woow, that was a ride! Thanks for reading this guide, I hope you enjoyed building your new [68Keys][twitter] mechanical keyboard. I would love hear your feedback and see the result of your work!
+
+[twitter]: https://twitter.com/68Keys
