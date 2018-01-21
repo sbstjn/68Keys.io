@@ -3,7 +3,7 @@
 title: Legal Information
 description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
 
-image: /images/og/legal.jpg
+image: /images/og/splash.jpg
 
 robots: NOINDEX, FOLLOW
 
