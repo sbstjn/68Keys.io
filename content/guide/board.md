@@ -2,8 +2,7 @@
 
 title: The Circuit Board
 description: Order your custom Printed Circuit Board to power your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
-
-image: /images/og/guide/board.jpg
+image: /images/og/splash.jpg
 
 next:
   link: /guide/firmware
@@ -11,9 +10,11 @@ next:
 
 ---
 
-All sources for the custom **Printed Circuit Board** are available online. You can find ready-to-use *Gerber files* files matching the cover plate on [GitHub][gerberfiles]. You only need to submit them to a company to print them for you. Of course you can do this in your own home as well, but prices are that low for custom PCBs, it's a no-brainer to just order them&nbsp;…
+All sources for the custom **Printed Circuit Board** are available online. You can find ready-to-use *Gerber files* files matching the cover plate on [GitHub][gerberfiles]. You only need to submit them to a company to print them for you. Of course you can do this in your own home as well, but prices are that low for custom PCBs, it's a no-brainer to just order them!
 
-The circuit board has no micro controller on it, it's just the wiring for your keyboard. But you can perfectly solder an **Arduino Pro Micro** to the board! You will need one simple **Push Button** to controll the Arduino board and a **1N4148 Diode** for every Cherry MX Switch on the board: 
+![PCB with Diodes](/images/board/diodes-assembled.jpg)
+
+The circuit board has no micro controller on it, it's just the wiring for your keyboard. But you can perfectly solder an **Arduino Pro Micro** to the board! You will need one simple **Push Button** to controll the Arduino and one **1N4148 Diode** for every Cherry MX Switch on the board: 
 
 {{% parts "board" %}}
 
@@ -29,7 +30,16 @@ For the keyboard in this guide, I ordered the circuit boards from [EasyEDA][easy
 
 The circuit board has marks for every component. 
 
+![PCB with Diodes](/images/board/parts.jpg)
+
 Diodes, Arduino, Switch
+
+{{% gallery "half" %}}
+
+![PCB with Diodes](/images/board/arduino-board.jpg)
+![PCB with Diodes](/images/board/diodes-pre.jpg)
+
+{{% /gallery %}}
 
 ### Connect PCB to Switches
 

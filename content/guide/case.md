@@ -2,8 +2,7 @@
 
 title: The Aluminium Case
 description: Find all information you need to build your own aluminium Sandwich Case for your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
-
-image: /images/og/guide/case.jpg
+image: /images/og/splash.jpg
 
 next:
   link: /guide/board
@@ -15,7 +14,7 @@ Every keyboard needs a case; ideally made of Aluminium, or other types of metal.
 
 The case for a keyboard can easily hit the price you plan to invest in keycaps. Using a so-called *Sandwich Case* is a perfect mix. You get Aluminium, but don't have to pay a fortune. The origin of the naming is kind of obvious: There is one piece of Aluminium above your circuit board, and one underneath. Both plates will be connected with common hexagonal standoffs and the cover plate holds the switches and stabilizers. 
 
-![1st Image](/images/case/done-both.jpg)
+![1st Image](/images/case/black-assembled.jpg)
 
 Basically, you just need a CAD file for both plates and submit them to a company that cuts your lines into a nice plate of aluminium. Sounds complex, right? Don't be afraid! You can find everything you need with a few clicks and submit the files into production within a minute.
 
@@ -98,9 +97,9 @@ You should find ordinary aluminium polish cream in your local hardware store. To
 
 Raw aluminium is be very sensitive. You might want to adonize the aluminium plates; either do this by yourself, find a local company, or check if the company that cuts your plates offers this finishing as well.
 
-![1st Image](/images/case/parts.jpg)
+![1st Image](/images/case/plates-black.jpg)
 
-If you are lucky, you might get a good deal with a local vendor. Just call them, and ask for a price offer. Most of the time they handle large orders and may sneak your two parts in with a larger order.
+If you are lucky, you might get a good deal with a local vendor. Just call them, and ask for a price offer. Most of the time they handle large orders and may sneak your parts in with a larger order.
 
 ### Switches, Stabilizers, and Screws
 
@@ -108,8 +107,8 @@ When your cover plate is ready (either polished, or adonized), it's time to snap
 
 {{% gallery "half" %}}
 
-![1st Image](/images/case/parts.jpg)
-![1st Image](/images/case/parts.jpg)
+![1st Image](/images/case/parts-black.jpg)
+![1st Image](/images/case/parts-black-assembled.jpg)
 
 {{% /gallery %}}
 

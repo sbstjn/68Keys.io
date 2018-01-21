@@ -1,8 +1,7 @@
 ---
 
 title: Shopping List
-description: All parts you need to build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
-
+description: All parts you need to build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own keyboard!
 image: /images/og/splash.jpg
 
 back: true

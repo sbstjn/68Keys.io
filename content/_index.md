@@ -1,7 +1,7 @@
 ---
 
 title: Custom 68% Mechanical Keyboard
-description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
+description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own keyboard!
 image: /images/og/splash.jpg
 
 aliases:
@@ -11,7 +11,7 @@ aliases:
 
 Welcome, Bonjour, and Moin! With the content on [68Keys.io][1], you can build your own custom 68% Mechanical Keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [TMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your own mechanical keyboard right away. Have fun!
 
-![Custom 68% Mechanical Keyboard from 68Keys.io](/images/example/one.jpg)
+![Custom 68% Mechanical Keyboard from 68Keys.io](/images/mood.jpg)
 
 Being an enthusiast for mechanical keyboards, I switched to 60% keyboards from [KBParadise][5] a while ago. I never regretted this decision, but all the time I had an eye on a beauty called [Varmilo VA87M][6]. When I read about the terrible macOS support, I was truely disappointed and started to read about building a custom keyboard.
 
