@@ -14,7 +14,7 @@ Every keyboard needs a case; ideally made of Aluminium or other types of metal. 
 
 The case for a keyboard can quickly hit the price you plan to invest in keycaps. Using a so-called *Sandwich Case* is a perfect mix. You get Aluminium, but don't have to pay a fortune. The origin of the naming is obvious: There is one piece of Aluminium above your circuit board and one underneath. Both plates are connected with standard hexagonal standoffs and the cover plate holds the switches and stabilizers. 
 
-![Black adonized Aluminium mechanical keyboard with Cherry MX brown switches and Plate-mounted Stabilizers](/images/case/black-assembled.jpg)
+![Black anodized Aluminium mechanical keyboard with Cherry MX brown switches and Plate-mounted Stabilizers](/images/case/black-assembled.jpg)
 
 You just need a CAD file for both plates and submit them to a company that cuts your lines into a beautiful plate of Aluminium. Sounds complex, right? Don't be afraid! You can find everything you need with a few clicks and submit the files into production within a minute.
 
@@ -91,22 +91,22 @@ You should find regular Aluminium polish cream in your local hardware store. Tog
 
 {{% /gallery %}}
 
-### Adonized Aluminium
+### Anodized Aluminium
 
-Raw Aluminium is very sensitive. You might want to adonize the Aluminium plates; either do this by yourself, find a local company, or check if the company that cuts your plates offers this finishing as well.
+Raw Aluminium is very sensitive. You might want to anodize the Aluminium plates; either do this by yourself, find a local company, or check if the company that cuts your plates offers this finishing as well.
 
-![Black adonized Aluminium cover and bottom plates for 68Keys.io mechanical keyboard](/images/case/plates-black.jpg)
+![Black anodized Aluminium cover and bottom plates for 68Keys.io mechanical keyboard](/images/case/plates-black.jpg)
 
 If you are lucky, you might get a good deal with a local vendor. Just call them, and ask for a price offer. Most of the time they handle large orders and may sneak your parts in with another order.
 
 ### Switches, Stabilizers, and Screws
 
-When your cover plate is ready (either polished or adonized), it's time to snap in the **Stabilizers** and **Switches**. That should be no problem at all, just make sure to start with the stabilizers first.
+When your cover plate is ready (either polished or anodized), it's time to snap in the **Stabilizers** and **Switches**. That should be no problem at all, just make sure to start with the stabilizers first.
 
 {{% gallery "half" %}}
 
 ![Black Aluminium Case, Cherry MX brown switches, Cherry Stabilizers, M3 Screws, M3 Standoffs](/images/case/parts-black.jpg)
-![Black adonized Aluminium cover and bottom plates for 68Keys.io mechanical keyboard (Details, Close-Up)](/images/case/parts-black-assembled.jpg)
+![Black anodized Aluminium cover and bottom plates for 68Keys.io mechanical keyboard (Details, Close-Up)](/images/case/parts-black-assembled.jpg)
 
 {{% /gallery %}}
 
