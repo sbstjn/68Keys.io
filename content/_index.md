@@ -13,7 +13,7 @@ Welcome, Bonjour, and Moin! With the content on [68Keys.io][1], you can build yo
 
 ![Custom 68% Mechanical Keyboard from 68Keys.io](/images/intro.jpg)
 
-Being an enthusiast for mechanical keyboards, I switched to 60% keyboards from [KBParadise][5] a couple of months ago. I never regretted this decision, but all the time I had an eye on a beauty called [Varmilo VA87M][6]. When I read about the terrible macOS support, I was truly disappointed and started to read about building a custom keyboard.
+Being an enthusiast for mechanical keyboards, I switched to 60% keyboards from [KBParadise][5] a couple of months ago. I never regretted this decision, but all the time I had an eye on a beauty called [Varmilo VA68M][6]. When I read about the terrible macOS support, I was truly disappointed and started to read about building a custom keyboard.
 
 ### How To Use This Guide?
 
