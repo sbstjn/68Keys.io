@@ -30,7 +30,7 @@ If you are ready to tackle this adventure, head over to the [shopping list][7]! 
 
 ### Requirements
 
-I expect you already have a couple of things, most notable a screw river and a soldering iron. The needed screwdriver depends on the type of screws you chose for the case, and I cannot recommend any specific soldering Iron. I ordered an inexpensive one on Amazon a couple of years ago.
+I expect you already have a couple of things, most notable a screwdriver and a soldering iron. The needed screwdriver depends on the type of screws you chose for the case, and I cannot recommend any specific soldering Iron. I ordered an inexpensive one on Amazon a couple of years ago.
 
 ### License
 
