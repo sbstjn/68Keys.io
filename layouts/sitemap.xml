@@ -3,5 +3,25 @@
     <loc>https://68Keys.io/</loc>
     <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}</lastmod>
     <priority>1</priority>
-  </url>  
+  </url>
+  <url>
+    <loc>https://68Keys.io/guide/case/</loc>
+    <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://68Keys.io/guide/board/</loc>
+    <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://68Keys.io/guide/firmware/</loc>
+    <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://68Keys.io/parts/</loc>
+    <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
