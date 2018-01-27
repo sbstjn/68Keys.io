@@ -1,0 +1,8 @@
+<ul>
+{{ range (index $.Site.Data.parts ( .Get 0)) }}
+  <li>
+    {{ .name }}
+    <span>{{ .price }} at <a href="{{ .link }}">{{ .shop }}</a></span>
+  </li>
+{{ end }}
+</ul>

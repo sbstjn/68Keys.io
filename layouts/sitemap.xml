@@ -1,0 +1,7 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://68Keys.io/</loc>
+    <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}</lastmod>
+    <priority>1</priority>
+  </url>  
+</urlset>

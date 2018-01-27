@@ -1,0 +1,60 @@
+board:
+  - name: Arduino Pro Micro with ATmega32U4
+    link: https://www.ebay.com/sch/i.html?_nkw=Pro+Micro+Leonardo+5V+16M+ATmega32U4
+    shop: eBay
+    price: 4.90 USD
+  - name: USB to Micro-USB cable
+    link: https://www.ebay.com/sch/i.html?_nkw=micro+usb+cable
+    shop: eBay
+    price: 0.79 USD
+  - name: Push Button, 4-pin 6x6x5
+    link: https://www.ebay.com/sch/i.html?_nkw=4+pin+push+button+6x6x5
+    shop: eBay
+    price: 0.99 USD
+  - name: Diodes, 1N4148 ( 68x )
+    link: https://www.ebay.com/sch/i.html?_nkw=1N4148
+    shop: eBay
+    price: 0.99 USD
+case:
+  - name: M3 Screws, 8mm ( 20x )
+    link: https://www.ebay.com/sch/i.html?_nkw=m3+8mm+screw
+    shop: eBay
+    price: 0.99 USD
+  - name: M3 Standoffs, 15mm ( 10x )
+    link: https://www.ebay.com/sch/i.html?_nkw=m3+standoff+12mm
+    shop: eBay
+    price: 0.99 USD
+  - name: Cherry MX Switches ( 68x )
+    link: https://www.arrow.com/en/manufacturers/cherry-americas-llc/electromechanical-switches/switch-key
+    shop: Arrow
+    price: 14.20 USD
+  - name: Cherry Stabilizers ( Plate-mounted )
+    link: https://www.ebay.com/sch/i.html?_nkw=Cherry+Stabilizers+Plate+mounted
+    shop: eBay
+    price: 6.99 USD
+shrink:
+  - name: Mini-USB cable
+    link: https://www.ebay.com/sch/i.html?_nkw=mini+usb+cable
+    shop: eBay
+    price: 0.79 USD
+  - name: Mini-USB Jack, 5-pin
+    link: https://www.ebay.com/sch/i.html?_nkw=mini+usb+DIP+Jack+Connector+5-pin+right+angle
+    shop: eBay
+    price: 0.99 USD
+  - name: Micro-USB Connector, Male
+    link: https://www.ebay.com/sch/i.html?_nkw=micro+usb+connector+male
+    shop: eBay
+    price: 0.99 USD
+  - name: 5cm Stranded Cable, 1-pin (x4)
+    link: https://www.ebay.com/sch/i.html?_nkw=stranded+cable+1pin
+    shop: eBay
+    price: 0.99 USD
+  - name: M3 Standoffs, 10mm (10x)
+    link: https://www.ebay.com/sch/i.html?_nkw=m3+standoffs+10mm
+    shop: eBay
+    price: 0.99 USD
+  - name: M3 Screws, 6mm (10x)
+    link: https://www.ebay.com/sch/i.html?_nkw=m3+srews+6mm
+    shop: eBay
+    price: 0.79 USD
+

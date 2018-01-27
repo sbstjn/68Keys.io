@@ -1,0 +1,23 @@
+DefaultContentLanguage: en
+baseURL: https://68Keys.io/
+title: 68Keys.io
+
+disableHugoGeneratorInject: true
+
+disableKinds:
+  - RSS
+  - 404
+
+params:
+  robots: INDEX, FOLLOW
+
+pygmentsUseClasses: true
+
+enableRobotsTXT: true
+
+taxonomies:
+  tag: ''
+  category: ''
+
+params:
+  doge: D8mKpbfGxHgadKdgoewkmXETN4JCgj92Xw

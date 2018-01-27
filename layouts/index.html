@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <header>
+    <h1>68 KEYS</h1>
+  </header>
+
+  {{ partial "features" }}
+
+  <section class="content">
+    <h2>Build Your Own Custom <span>68% Mechanical Keyboard</span></h2>
+    <ul id="menu">
+      <li><a href="/case">Case</a></li>
+      <li><a href="/board">Board</a></li>
+    </ul>
+    <section class="wrapper">
+      {{ .Content }}
+    </section>
+  </section>
+{{ end }}

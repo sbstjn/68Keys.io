@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+<title>{{ .Title }} - {{ .Site.Title }}</title>
+<link rel="canonical" href="{{ .URL | absLangURL }}">
+
+{{ partial "styles" }}
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="{{ .Description }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1">
+<meta name="author" content="sbstjn">
+<meta name="robots" content="{{ if isset .Params "robots" }}{{ .Params.robots }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="{{ .URL | absLangURL }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:image" content="{{ .Params.image }}">
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="A 68% mechanical keyboard using the SA Grade keycaps, with a red ESC key." />
+
+
+{{ if eq .URL "/" }}
+<meta property="og:type" content="website" />
+{{ else }}
+<meta property="og:type" content="article" />
+<meta property="article:author" content="669118929"/>
+<meta property="article:published_time" content="{{ safeHTML ( dateFormat "2006-01-02T15:04:05Z" now.UTC ) }}"/>
+<meta property="article:tag" content="68Keys"/>
+<meta property="article:tag" content="Aluminium Case"/>
+<meta property="article:tag" content="Keyboard"/>
+<meta property="article:tag" content="Mechanical Keyboard"/>
+<meta property="article:tag" content="Printed Circuit Board"/>
+<meta property="article:tag" content="TMK Firmware"/>
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@68Keys">
+<meta name="twitter:creator" content="@sbstjn">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:image" content="{{ .Params.image }}">
+
+<meta name="google-site-verification" content="TSqEPNp4HpnOMUl7OFX2ulS8Dy0wjeBX8JTReBhaDs0" />
+
+<meta property="fb:app_id" content="137816223556828" />
+<meta property="fb:admins" content="669118929"/>
+
+<script type="text/javascript">
+  /** loadcss **/
+  !function(a){"use strict";var b=function(b,c,d){function j(a){return e.body?a():void setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+  /** preload **/
+  !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+  /** domready **/
+  !function(e,t){typeof module!="undefined"?module.exports=t():typeof define=="function"&&typeof define.amd=="object"?define(t):this[e]=t()}("domready",function(){var e=[],t,n=document,r=n.documentElement.doScroll,i="DOMContentLoaded",s=(r?/^loaded|^c/:/^loaded|^i|^c/).test(n.readyState);return s||n.addEventListener(i,t=function(){n.removeEventListener(i,t),s=1;while(t=e.shift())t()}),function(t){s?setTimeout(t,0):e.push(t)}})
+</script>

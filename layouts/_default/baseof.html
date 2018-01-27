@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+
+  <body>
+    {{ block "main" . }}
+      {{ .Content }}
+    {{ end }}
+
+    {{ partial "footer.html" . }}
+    {{ partial "license.html" . }}
+    {{ partial "navigation.html" . }}
+    {{ partial "scripts.html" . }}
+    {{ partial "tracking.html" . }}
+  </body>
+</html>

@@ -1,0 +1,277 @@
+.content
+  font-family: Raleway, sans-serif
+  padding: 40px 0 0 0
+
+  &.single
+    padding-top: 90px
+
+  @media all and (min-width: 630px)
+    padding: 60px 0 0 0
+
+    &.single
+      padding-top: 110px
+
+  h3
+    margin: 40px 0 15px 0
+
+  h4
+    margin: 30px 0 10px 0
+
+  h2
+    text-align: center
+    margin: 10px auto 40px auto
+    font-family: 'Saira', sans-serif
+    font-size: 26px
+    font-weight: 600
+    max-width: 380px
+    padding: 0 20px
+
+    @media all and (min-width: 440px)
+      margin: 20px auto 60px auto
+      font-size: 30px
+      max-width: 420px
+
+    @media all and (min-width: 630px)
+      margin: 20px auto 80px auto
+      font-size: 40px
+      max-width: 600px
+
+    @media all and (min-width: 1000px)
+      margin: 30px auto 100px auto
+      font-size: 46px
+      max-width: 650px
+  
+  .next
+    text-align: center
+    letter-spacing: 0.03em
+    font-size: 13px
+    top: -40px
+    position: relative
+
+    @media all and (min-width: 440px)
+      top: -62px
+    @media all and (min-width: 630px)
+      top: -85px
+      font-size: 15px
+    @media all and (min-width: 1000px)
+      font-size: 17px
+      top: -108px
+
+    a
+      font-weight: normal
+      color: #c24843
+      font-weight: 600
+      text-decoration: none
+
+      &:hover
+        color: #9C3936
+      
+  small
+    font-size: 13px
+    line-height: 21px
+    color: #666666
+    display: block
+
+    @media all and (min-width: 440px)
+      font-size: 14px
+      line-height: 22px
+    @media all and (min-width: 630px)
+      font-size: 15px
+      line-height: 23px
+    @media all and (min-width: 800px)
+      font-size: 16px
+      line-height: 24px
+
+  .wrapper
+    padding: 0 25px
+    margin: 0 auto
+    max-width: 700px
+    font-size: 16px
+    font-weight: 400
+    line-height: 25px
+
+    @media all and (min-width: 440px)
+      padding: 0 40px
+    @media all and (min-width: 630px)
+      font-size: 18px
+      line-height: 29px
+    @media all and (min-width: 800px)
+      max-width: 760px
+    @media all and (min-width: 1000px)
+      max-width: 900px
+      font-size: 20px
+      line-height: 34px
+
+    img
+      max-width: 100%
+      display: block
+
+      &:not([src*="screenshot"])
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    
+      & + img
+        &:not([src*="screenshot"])
+          margin-top: 30px
+
+    p img:only-child
+      &:not([src*="screenshot"])
+        margin: 30px 0 33px 0
+
+    p + p, p + pre, pre + p, p + .highlight, .highlight + p
+      margin-top: 20px
+
+    ul + ul
+      margin-top: 10px
+
+    ul + p
+      margin-top: 35px
+
+    p + ul
+      margin-top: 30px
+
+    p + .gallery
+      margin-top: 25px
+
+    .gallery + p
+      margin-top: 30px
+
+    .gallery-half
+      @media all and (min-width: 700px)
+        padding: 0 0 0 0
+        width: 100%
+        text-align: center
+
+        .clear
+          clear: both
+
+        img
+          width: 300px
+          float: left
+          margin-left: 20px
+          margin-bottom: 20px
+
+          &:nth-child(odd)
+            margin-left: 0px
+          &:nth-last-child(-n+2)
+            margin-bottom: 0px
+
+          & + img
+            margin-top: 0px
+      @media all and (min-width: 800px)
+        padding: 0 0 0 0
+        width: 100%
+        text-align: center
+
+        .clear
+          clear: both
+
+        img
+          width: 325px
+          float: left
+          margin-left: 30px
+          margin-bottom: 20px
+
+          &:nth-child(odd)
+            margin-left: 0px
+          &:nth-last-child(-n+2)
+            margin-bottom: 0px
+
+          & + img
+            margin-top: 0px
+      @media all and (min-width: 1000px)
+        img
+          width: 390px
+          float: left
+          margin-left: 40px
+          margin-bottom: 40px
+
+          &:nth-child(odd)
+            margin-left: 0px
+
+    p > code, small > code
+      background-color: #e2e2e2
+      padding: 0px 8px
+      display: inline-block
+      font-size: 14px
+      position: relative
+      line-height: 24px
+      top: -1px
+      border-radius: 3px
+
+      @media all and (min-width: 630px)
+        font-size: 15px
+      @media all and (min-width: 1000px)
+        padding: 0px 8px
+        font-size: 17px
+
+      
+    code.wallet
+      background-color: #e2e2e2
+      padding: 2px 8px
+      display: inline-block
+      font-size: 14px
+      border-radius: 3px
+
+      @media all and (min-width: 630px)
+        font-size: 15px
+      @media all and (min-width: 1000px)
+        padding: 2px 12px
+        font-size: 17px
+
+    pre
+      background-color: #e2e2e2
+      padding: 13px 16px 4px 16px
+      border-radius: 5px
+
+      code
+        max-width: 100%
+        overflow: scroll
+        font-family: Fira Mono
+        line-height: 22px
+        font-size: 13px
+        padding-bottom: 8px
+
+        @media all and (min-width: 630px)
+          font-size: 15px
+          line-height: 27px
+
+    li
+      &:before
+        content: ""
+        background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 24' xml:space='preserve' width='24' height='24'><path fill='#666666' d='M10,17.414L8.586,16l4-4l-4-4L10,6.586l4.707,4.707c0.391,0.391,0.391,1.023,0,1.414L10,17.414z'></path></svg>")
+        height: 30px
+        width: 20px
+        display: block
+        float: left
+        background-size: 100%
+        background-position: left 2px
+        background-repeat: no-repeat
+
+        @media all and (min-width: 630px)
+          background-position: left 5px
+        @media all and (min-width: 1000px)
+          background-position: left 7px
+
+      &:last-child
+        span
+          padding-bottom: 0px
+
+      span
+        display: block
+        margin-left: 20px
+        font-size: 13px
+        line-height: 19px
+        color: #666666
+        padding-bottom: 10px
+
+        @media all and (min-width: 440px)
+          font-size: 14px
+          line-height: 17px
+
+    a
+      color: #c24843
+      font-weight: 600
+      text-decoration: none
+
+      &:hover
+        color: #9C3936

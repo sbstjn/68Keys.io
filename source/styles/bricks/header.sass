@@ -1,0 +1,44 @@
+header
+  min-height: 400px
+  height: 70%
+  background-image: url(/images/header.jpg)
+  background-position: 80% center
+  background-size: cover
+  text-align: center
+  transition: all .1s linear
+
+  @media all and (min-width: 440px)
+    background-position: 70% center
+  @media all and (min-width: 540px)
+    background-position: 60% center
+  @media all and (min-width: 660px)
+    background-position: 50% center
+  @media all and (min-width: 780px)
+    background-position: center center
+
+  h1
+    color: black
+    font-family: 'Saira', sans-serif
+    font-weight: 600
+    border: 7px solid black
+    font-size: 46px
+    line-height: 54px
+    background-color: rgba(245, 245, 245, 0.4)
+    border-radius: 1px
+    -webkit-font-smoothing: antialiased
+    display: inline-block
+    padding: 0px 10px
+    margin: 35px auto 0
+
+    @media all and (min-height: 700px)
+      margin: 45px auto 0
+    @media all and (min-height: 700px)
+      margin: 65px auto 0
+    @media all and (min-width: 540px)
+      margin: 50px auto 0
+    @media all and (min-width: 540px) and (min-height: 800px)
+      margin: 60px auto 0
+    @media all and (min-width: 820px)
+      margin: 60px auto 0
+    @media all and (min-width: 820px) and (min-height: 800px)
+      margin: 70px auto 0
