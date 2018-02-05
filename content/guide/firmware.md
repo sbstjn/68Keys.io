@@ -1,7 +1,7 @@
 ---
 
 title: TMK Firmware
-description: Compile your custom TMK Firmware to run your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
+description: Compile your custom TMK Firmware to run your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own mechanical keyboard.
 image: /images/og/splash.jpg
 
 back: true

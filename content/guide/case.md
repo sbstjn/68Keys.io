@@ -1,7 +1,7 @@
 ---
 
 title: The Aluminium Case
-description: Find all information you need to build your own aluminium Sandwich Case for your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
+description: Find all information you need to build your own aluminium Sandwich Case for your DIY 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed guide with photos supports you in building your own mechanical keyboard.
 image: /images/og/splash.jpg
 
 next:
