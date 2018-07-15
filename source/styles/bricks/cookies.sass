@@ -1,0 +1,82 @@
+#performance-cookies
+  float: left
+
+  & + p
+    float: right
+    text-align: right
+    margin-top: 28px
+    margin-bottom: 20px
+    line-height: 42px
+    font-size: 34px
+
+  & + p + p
+    clear: both
+
+#cookie-banner
+  position: fixed
+  width: 100%
+  bottom: 12px
+  text-align: center
+  z-index: 500
+  padding: 0 12px
+  box-sizing: border-box
+  opacity: 1
+  transition: all .4s ease-out
+
+  &.do-hide
+    opacity: 0
+
+  &.do-remove
+    display: none
+
+  &.is-home
+    bottom: 59px
+
+#cookie-banner-inner
+  background-color: #011627
+  color: #80CBC4
+  max-width: 780px
+  margin: 0 auto
+  padding: 14px
+  box-sizing: border-box
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace
+  font-size: 12px
+  line-height: 21px
+  border-radius: 5px
+
+  button
+    background-color: rgb(255, 204, 0)
+    color: black
+    padding: 6px 12px 5px 12px
+    display: block
+    margin: 10px auto 4px auto
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace
+    border: 0
+    text-transform: uppercase
+    font-weight: bold
+    cursor: pointer
+
+  a
+    color: #FAD02D
+
+table
+  width: 100%
+  border-collapse: collapse
+
+  th
+    border-bottom: 1px solid #666
+
+  tbody tr:first-child td
+    padding-top: 4px
+
+  th, td
+    vertical-align: top
+    text-align: left
+    padding: 0 12px
+
+    &:last-child
+      text-align: right
+
+  td
+    max-width: 60px
+    font-size: 18px
