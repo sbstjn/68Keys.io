@@ -2,8 +2,6 @@
 <title>{{ .Title }} - {{ .Site.Title }}</title>
 <link rel="canonical" href="{{ .URL | absLangURL }}">
 
-{{ partial "styles" }}
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -22,6 +20,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="A 68% mechanical keyboard using the SA Grade keycaps, with a red ESC key." />
 
+{{ partial "styles" }}
 
 {{ if eq .URL "/" }}
 <meta property="og:type" content="website" />
