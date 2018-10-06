@@ -1,7 +1,7 @@
 ---
 
 title: Custom 68% Mechanical Keyboard DIY Guide
-description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own keyboard!
+description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and QMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own keyboard!
 image: /images/og/splash.jpg
 
 aliases:
@@ -9,7 +9,7 @@ aliases:
 
 ---
 
-Welcome, Bonjour, and Moin! With the contents and DIY guide on [68Keys.io][1], you can build your own custom 68% Mechanical Keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [TMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your DIY mechanical keyboard right away. Have fun!
+Welcome, Bonjour, and Moin! With the contents and DIY guide on [68Keys.io][1], you can build your own custom 68% Mechanical Keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [QMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your DIY mechanical keyboard right away. Have fun!
 
 ![Custom 68% Mechanical Keyboard from 68Keys.io](/images/intro.jpg)
 
@@ -23,10 +23,10 @@ The content on this site is split up into three parts. Together with the [shoppi
   <span>Simple, inexpensive, but beautiful case made of Aluminium</span>
 - [Printed Circuit Boards][2]\
   <span>Custom circuit boards using an Arduino with ATmega32U4</span>
-- [TMK Firmware][4]\
-  <span>Programmable firmware based on the popular TMK core</span>
+- [QMK Firmware][4]\
+  <span>Programmable firmware based on the popular QMK project</span>
 
-If you are ready to tackle this adventure, head over to the [shopping list][7]! When you received everything, start with assembling the [Aluminium Case][3] first, followed by soldering everything to the [Circuit Board][2], and finally load the [TMK Firmware][4] to your board&nbsp;…
+If you are ready to tackle this adventure, head over to the [shopping list][7]! When you received everything, start with assembling the [Aluminium Case][3] first, followed by soldering everything to the [Circuit Board][2], and finally load the [QMK Firmware][4] to your board&nbsp;…
 
 ### Requirements
 
