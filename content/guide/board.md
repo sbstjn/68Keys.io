@@ -6,7 +6,7 @@ image: /images/og/splash.jpg
 
 next:
   link: /guide/firmware
-  name: TMK Firmware
+  name: QMK Firmware
 
 ---
 
@@ -89,7 +89,7 @@ Place the cover with the switches and stabilizers on your table, with the connec
 
 ### Upload the Firmware
 
-You now have everything ready to put some software on your keyboard, isn't that awesome? Head to the next page and read everything about the custom [TMK Firmware][firmware] you need to get your keyboard running!
+You now have everything ready to put some software on your keyboard, isn't that awesome? Head to the next page and read everything about the custom [QMK Firmware][firmware] you need to get your keyboard running!
 
 [easyeda]: https://easyeda.com
 [orderpcb]: https://easyeda.com/order
