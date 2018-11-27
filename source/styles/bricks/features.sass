@@ -14,13 +14,13 @@ $color-background: #f6f6f6
 
   ul
     width: 100%
-    overflow: hidden
     max-width: 1200px
     margin: 0 auto
+    display: flex
+    flex-wrap: wrap
 
   li
     display: block
-    float: left
     width: 100%
     margin: 0
     padding: 0
@@ -45,10 +45,10 @@ $color-background: #f6f6f6
     &:last-child
       border-right: 0px
 
-    @media all and (min-width: 410px)
+    @media all and (min-width: 324px)
       width: 50%
 
-    @media all and (min-width: 800px)
+    @media all and (min-width: 720px)
       width: 25%
 
     @media all and (min-width: 1000px)
