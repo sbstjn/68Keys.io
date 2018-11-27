@@ -1,7 +1,7 @@
 ---
 
 title: Custom 68% Mechanical Keyboard DIY Guide
-description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and TMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own keyboard!
+description: Build your own 68% Mechanical Keyboard! Find all information about the Circuit Board, Aluminium Case, and QMK Firmware. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own keyboard!
 image: /images/og/splash.jpg
 
 aliases:
@@ -9,7 +9,7 @@ aliases:
 
 ---
 
-Welcome, Bonjour, and Moin! With the contents and DIY guide on [68Keys.io][1], you can build your own custom 68% Mechanical Keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [TMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your DIY mechanical keyboard right away. Have fun!
+Welcome, Bonjour, and Moin! With the contents and DIY guide on [68Keys.io][1], you can build your own custom 68% Mechanical Keyboard! Sounds great, right? You will find all information about the needed [Circuit Board][2], [Aluminium Case][3], and modified [QMK firmware][4] on this site. With the detailed shopping list, you can start ordering parts and dive into building your DIY mechanical keyboard right away. Have fun!
 
 ![Custom 68% Mechanical Keyboard from 68Keys.io](/images/intro.jpg)
 
@@ -23,10 +23,10 @@ The content on this site is split up into three parts. Together with the [shoppi
   <span>Simple, inexpensive, but beautiful case made of Aluminium</span>
 - [Printed Circuit Boards][2]\
   <span>Custom circuit boards using an Arduino with ATmega32U4</span>
-- [TMK Firmware][4]\
-  <span>Programmable firmware based on the popular TMK core</span>
+- [QMK Firmware][4]\
+  <span>Programmable firmware based on the popular QMK core</span>
 
-If you are ready to tackle this adventure, head over to the [shopping list][7]! When you received everything, start with assembling the [Aluminium Case][3] first, followed by soldering everything to the [Circuit Board][2], and finally load the [TMK Firmware][4] to your board&nbsp;…
+If you are ready to tackle this adventure, head over to the [shopping list][7]! When you received everything, start with assembling the [Aluminium Case][3] first, followed by soldering everything to the [Circuit Board][2], and finally load the [QMK Firmware][4] to your board&nbsp;…
 
 ### Requirements
 
@@ -40,7 +40,7 @@ Sources are available on [GitHub][10], please submit a [Pull Request][11] or fil
 
 ### Thank You!
 
-All this content would not exist without the great resources about mechanical keyboards already available online. Most important the [Keyboard Layout Editor][13], [Keyboard Case Builder][14], [Gerber files for the PCB][15], [TMK firmware][16], and many more.
+All this content would not exist without the great resources about mechanical keyboards already available online. Most important the [Keyboard Layout Editor][13], [Keyboard Case Builder][14], [Gerber files for the PCB][15], [QMK firmware][16], and many more.
 
 Huge applause goes to [Hauke][17] for hooking me up with mechanical keyboards, my colleagues at the office that suffer from the clicky noise, and [Julia][18] for all the excellent photos. You guys are the best! 😘
 
@@ -58,7 +58,7 @@ Huge applause goes to [Hauke][17] for hooking me up with mechanical keyboards, m
 [12]: https://github.com/sbstjn/68keys.io/issues
 [13]: http://www.keyboard-layout-editor.com/
 [14]: http://builder.swillkb.com/
-[15]: https://github.com/sbstjn/tmk_keyboard/tree/master/keyboard/mf68/pcb
-[16]: https://github.com/sbstjn/tmk_keyboard/tree/master/keyboard/mf68
+[15]: https://68keys.io/files/pcb.zip
+[16]: https://github.com/sbstjn/qmk_firmware/tree/master/keyboards/68keys
 [17]: https://twitter.com/einjungeauskiel
 [18]: http://julia-kestner.de

@@ -6,7 +6,7 @@ image: /images/og/splash.jpg
 
 next:
   link: /guide/firmware
-  name: TMK Firmware
+  name: QMK Firmware
 
 ---
 
@@ -26,7 +26,7 @@ For this keyboard, I ordered the circuit boards from [EasyEDA][easyeda]. They ha
 
 You need the mentioned archive file that contains all *Gerber files*; you can [download them from GitHub][gerberfiles] or use the following button.
 
-{{% download "PCB Gerber Files" "https://github.com/sbstjn/tmk_keyboard/raw/master/keyboard/mf68/pcb/mf68_1.1.zip" "ZIP" "357 kb" %}}
+{{% download "PCB Gerber Files" "https://68keys.io/files/pcb.zip" "ZIP" "357 kb" %}}
 
 <small>The PCB Gerber files are made by [di0ib][di0ib] and shared using the [BY-SA Creative Commons][license] license.</small>
 
@@ -89,7 +89,7 @@ Place the cover with the switches and stabilizers on your table, with the connec
 
 ### Upload the Firmware
 
-You now have everything ready to put some software on your keyboard, isn't that awesome? Head to the next page and read everything about the custom [TMK Firmware][firmware] you need to get your keyboard running!
+You now have everything ready to put some software on your keyboard, isn't that awesome? Head to the next page and read everything about the custom [QMK Firmware][firmware] you need to get your keyboard running!
 
 [easyeda]: https://easyeda.com
 [orderpcb]: https://easyeda.com/order

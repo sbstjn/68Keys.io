@@ -1,7 +1,7 @@
 ---
 
-title: TMK Firmware
-description: Compile your custom TMK Firmware to run your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own mechanical keyboard.
+title: QMK Firmware
+description: Compile your custom QMK Firmware to run your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own mechanical keyboard.
 image: /images/og/splash.jpg
 
 back: true
@@ -28,58 +28,44 @@ To flash your Arduino with software, and for compiling the firmware, you must in
 
 ### Firmware
 
-The firmware is based on [TMK][tmk] and customized by [di0ib][di0ib] to work with the **Arduino Pro Micro** on the board. All sources for the keyboard are available [on GitHub][firmware] using the [GPL v2][license] license.
+The firmware is based on [QMK][qmk] and customized to work with the **Arduino Pro Micro** on the board. All sources for the keyboard are available [on GitHub][firmware] using the [GPL v2][license] license.
 
 ```bash
-$ > git clone https://github.com/sbstjn/tmk_keyboard.git
-$ > cd tmk_keyboard/keyboard/68Keys
+$ > git clone https://github.com/sbstjn/qmk_firmware.git
+$ > cd qmk_firmware
 ```
 
-The repository already includes a default keyboard configuration that you can use right away available in the `keymap_68Keys.c` file.
+The repository already includes a default keyboard configuration that you can use right away available in the `keymap.c` file. The file is located in the `keyboards/68keys` folder.
 
 ```c
-#include "keymap_common.h"
+#include QMK_KEYBOARD_H
+#include "68keys.h"
 
-const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  KEYMAP(
-      GRV,  1,    2,    3,     4,    5,    6,    7,    8,    9,    0,     MINS, EQL,  BSPC,   ESC,  PGUP,
-      TAB,  Q,    W,    E,     R,    T,    Y,    U,    I,    O,    P,     LBRC, RBRC, BSLS,   DEL,  PGDN,
-      FN0,  A,    S,    D,     F,    G,    H,    J,    K,    L,    SCLN,  QUOT, ENT, 
-      LSFT, Z,    X,    C,     V,    B,    N,    M,    COMM, DOT,  SLSH,        RSFT,         UP,
-      LCTL, LALT, LGUI,                 SPC,                 RGUI, RALT,  RCTL,         LEFT, DOWN, RGHT
-  ),
-  KEYMAP(
-      GRV,  F1,   F2,   F3,    F4,   F5,   F6,   F7,   F8,   F9,   F10,   F11,  F12,  TRNS,   TRNS, HOME,
-      TRNS, TRNS, UP,   TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS, UP,   TRNS,  TRNS, TRNS, TRNS,   TRNS, END,
-      TRNS, LEFT, DOWN, RIGHT, TRNS, TRNS, TRNS, TRNS, LEFT, DOWN, RIGHT, TRNS, TRNS, 
-      TRNS, MPRV, MPLY, MNXT,  VOLU, VOLD, MUTE, TRNS, TRNS, TRNS, TRNS,        TRNS,         VOLU, 
-      TRNS, TRNS, TRNS,                 TRNS,                TRNS, TRNS,  APP,          MPRV, VOLD, MNXT
-  ),
-};
-
-const action_t PROGMEM fn_actions[] = {
-    [0] = ACTION_LAYER_MOMENTARY(1),
-};
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    [0] = LAYOUT_68_ansi(
+        KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, KC_BSPC, KC_ESC, KC_PGUP,
+        KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC, KC_BSLS, KC_DEL, KC_PGDN,
+        KC_CAPSLOCK, KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_ENT,
+        KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_UP,
+        KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_RGUI, KC_RALT, KC_RCTL, KC_LEFT, KC_DOWN, KC_RGHT)};
 ```
 
-
-Basically, I moved **ESC** to the right side and replaced **Caps Lock** on my keyboard with **FN**. Holding **FN** enables the second keyboard layer, which includes media controls and additional arrow keys. Most keys do not have an extra function, adding **TRNS** just passes through the normal key.
+Basically, I only moved **ESC** to the right side. With QMK, you can easily add additional layers and replace **Caps Lock** for example with **FN**. Holding **FN** could enable a second keyboard layer, which includes media controls and additional arrow keys.
 
 ### Compile your Firmware
 
 After you have installed all needed [dependencies](#dependencies), compile the firmware with your custom keyboard layout:
 
 ```
-$ > make clean
-$ > make all
+$ > make 68keys:default
 
 [...]
 
-   text	   data	    bss	    dec	    hex	filename
-  22930	     56	    230	  23216	   5ab0	68Keys.elf
+Checking file size of 68keys_default.hex [OK]
+ * The firmware size is fine - 14096/28672 (14576 bytes free)
 ```
 
-When the command finishes without errors, you end up with a few `68Keys.*` files. In the next step will upload the `68Keys.hex` file to your Arduino board.
+When the command finishes without errors, you end up with a few `68Keys.*` files in the `.build` folder. In the next step you will upload the firmware to your Arduino board.
 
 ### Upload Firmware
 
@@ -94,45 +80,51 @@ crw-rw-rw-  1 root  wheel   21,   0 Jan 24 12:06 /dev/tty.SOC
 crw-rw-rw-  1 root  wheel   21,   0 Jan 24 12:06 /dev/tty.usbmodem1441
 ```
 
-If your computer detected the Arduino board correctly, it's time to upload your custom firmware to it. You can use the **Push Button** to enter the Bootload on your Arduino. [Press it twice][bootloader] directly after re-connecting the board to your computer and you have **8 seconds** to start with uploading your firmware.
+If your computer detected the Arduino board correctly, it's time to upload your custom firmware to it.
 
 
 ```bash
-$ > avrdude \
-    -patmega32u4 -cavr109 -b57600 -D -V \
-    -Uflash:w:68Keys.hex:i -P/dev/tty.usbmodem1441
+$ > make 68keys:default:avrdude
 ```
 
 <small>On some systems, the number following `usbmodem` increases every time you re-connect the board. On others, it stays the same or just switches to a different number when the Bootloader is enabled. Just run `ls /dev/tty.*`  after you connected the board or enabled the Bootloader to figure this out.</small>
 
-After you hit `enter` and the Arduino is ready to receive the firmware, `avrdude` will start to transfer the data and show you the progress:
+After you hit `enter` you will see a prompt to reset your controller. You can use the **Push Button** to enter the Bootload on your Arduino. [Press it twice][bootloader] directly after re-connecting the board to your computer and the process to flash the firmware to the board will start automatically. 
 
 ````
-Connecting to programmer: ...
+Checking file size of 68keys_default.hex                        [OK]
+ * The firmware size is fine - 14096/28672 (14576 bytes free)
+Copying 68keys_default.hex to qmk_firmware folder               [OK]
+Detecting USB port, reset your controller now..............
 
-Found programmer: Id = "CATERIN"; type = S
+Detected controller on USB port at /dev/tty.usbmodem146101
 
-Programmer supports the following devices:
-    Device code: 0x44
-
-avrdude: AVR device initialized and ready to accept instructions
-
-Reading | ################################################## | 100% 0.01s
+Reading | ################################################## | 100% 0.00s
 
 avrdude: Device signature = 0x1e9587
-avrdude: reading input file "68Keys.hex"
-avrdude: writing flash (22948 bytes):
+avrdude: erasing chip
+avrdude: reading input file ".build/68keys_default.hex"
+avrdude: input file .build/68keys_default.hex auto detected as Intel Hex
+avrdude: writing flash (14096 bytes):
 
-Writing | ################################################## | 100% 1.78s
+Writing | ################################################## | 100% 1.06s
 
-avrdude: 22948 bytes of flash written
+avrdude: 14096 bytes of flash written
+avrdude: verifying flash memory against .build/68keys_default.hex:
+avrdude: load data flash data from input file .build/68keys_default.hex:
+avrdude: input file .build/68keys_default.hex auto detected as Intel Hex
+avrdude: input file .build/68keys_default.hex contains 14096 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.12s
+
+avrdude: verifying ...
+avrdude: 14096 bytes of flash verified
 
 avrdude: safemode: Fuses OK (H:CB, E:D8, L:FF)
 
-avrdude done.
-Thank you.
+avrdude done.  Thank you.
 ````
-
 
 ### Make sure everything works
 
@@ -165,12 +157,12 @@ Woow, that was a ride! Thanks for reading this guide, I hope you enjoyed buildin
 [homebrew]: https://breh.sh
 [crosspack]: https://www.obdev.at/products/crosspack/download.html
 [parts]: /parts
-[firmware]: https://github.com/sbstjn/tmk_keyboard/tree/master/keyboard/68Keys
-[license]: https://github.com/sbstjn/tmk_keyboard#license
+[firmware]: https://github.com/sbstjn/qmk_firmware/tree/master/keyboards/68keys
+[license]: https://github.com/sbstjn/qmk_firmware/blob/master/LICENSE
 [bootloader]: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/troubleshooting-and-faq#ts-reset
 [case]: /guide/case
 [grade]: http://www.keyset.design/
-[tmk]: https://github.com/tmk/tmk_keyboard
+[qmk]: https://github.com/qmk/qmk_firmware
 [di0ib]: https://github.com/di0ib/
 [teensy]: https://www.pjrc.com/teensy/
 [shrink]: /parts/#shrink-kit
