@@ -1,11 +1,9 @@
 ---
-
 title: QMK Firmware
 description: Compile your custom QMK Firmware to run your 68% Mechanical Keyboard. A complete shopping list helps you with ordering all parts, and a detailed DIY guide with photos supports you in building your own mechanical keyboard.
 image: /images/og/splash.jpg
 
 back: true
-
 ---
 
 How you upload the firmware to your Arduino, depends on your computer's operating system. As I prefer to work with **macOS**, this guide uses tools and commands that work fine on a current **High Sierra v10.13** machine.
@@ -45,12 +43,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_68_ansi(
         KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, KC_BSPC, KC_ESC, KC_PGUP,
         KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC, KC_BSLS, KC_DEL, KC_PGDN,
-        KC_CAPSLOCK, KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_ENT,
+        MO(1), KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_ENT,
         KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_UP,
-        KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_RGUI, KC_RALT, KC_RCTL, KC_LEFT, KC_DOWN, KC_RGHT)};
+        KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_RGUI, KC_RALT, KC_RCTL, KC_LEFT, KC_DOWN, KC_RGHT),
+    [1] = LAYOUT_68_ansi(
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        MO(1), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_MPLY, KC_MSTP, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_VOLU,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPRV, KC_VOLD, KC_MNXT)
+};
 ```
 
-Basically, I only moved **ESC** to the right side. With QMK, you can easily add additional layers and replace **Caps Lock** for example with **FN**. Holding **FN** could enable a second keyboard layer, which includes media controls and additional arrow keys.
+Basically, I only moved **ESC** to the right side. Thanks to QMK, you can easily add additional layers and replace **Caps Lock** for example with **FN**. Holding **FN** could enable a second keyboard layer, which includes media controls.
 
 ### Compile your Firmware
 
@@ -82,16 +87,15 @@ crw-rw-rw-  1 root  wheel   21,   0 Jan 24 12:06 /dev/tty.usbmodem1441
 
 If your computer detected the Arduino board correctly, it's time to upload your custom firmware to it.
 
-
 ```bash
 $ > make 68keys:default:avrdude
 ```
 
-<small>On some systems, the number following `usbmodem` increases every time you re-connect the board. On others, it stays the same or just switches to a different number when the Bootloader is enabled. Just run `ls /dev/tty.*`  after you connected the board or enabled the Bootloader to figure this out.</small>
+<small>On some systems, the number following `usbmodem` increases every time you re-connect the board. On others, it stays the same or just switches to a different number when the Bootloader is enabled. Just run `ls /dev/tty.*` after you connected the board or enabled the Bootloader to figure this out.</small>
 
-After you hit `enter` you will see a prompt to reset your controller. You can use the **Push Button** to enter the Bootload on your Arduino. [Press it twice][bootloader] directly after re-connecting the board to your computer and the process to flash the firmware to the board will start automatically. 
+After you hit `enter` you will see a prompt to reset your controller. You can use the **Push Button** to enter the Bootload on your Arduino. [Press it twice][bootloader] directly after re-connecting the board to your computer and the process to flash the firmware to the board will start automatically.
 
-````
+```
 Checking file size of 68keys_default.hex                        [OK]
  * The firmware size is fine - 14096/28672 (14576 bytes free)
 Copying 68keys_default.hex to qmk_firmware folder               [OK]
@@ -124,7 +128,7 @@ avrdude: 14096 bytes of flash verified
 avrdude: safemode: Fuses OK (H:CB, E:D8, L:FF)
 
 avrdude done.  Thank you.
-````
+```
 
 ### Make sure everything works
 
@@ -143,7 +147,7 @@ Bus 000 Device 001: ID 1d6b:CIAR Linux Foundation USB 3.1 Bus
 
 After the successful upload of your firmware, you should finally be able to use the keyboard after re-connecting it to your computer. If everything works as expected, it's time to close the [Sandwich Case][case] and you're done!
 
-Make sure the Micro-USB cable is connected to the Arduino board and use the **M3 Screws** and **Standoffs** to close the *Sandwich Case*.
+Make sure the Micro-USB cable is connected to the Arduino board and use the **M3 Screws** and **Standoffs** to close the _Sandwich Case_.
 
 ![Custom 68% Mechanical Keyboard from 68Keys.io](/images/intro.jpg)
 
