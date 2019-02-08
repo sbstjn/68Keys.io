@@ -13,8 +13,8 @@ robots: NOINDEX, FOLLOW
 *German legal information following section 5 TMG and person responsible for the content by 55 Abs. 2 RStV:*
 
 Sebastian Müller\
-Palmaille 124b\
-22767 Hamburg\
+Stresemannstraße 132\
+22769 Hamburg\
 Germany
 
 ### Contact
