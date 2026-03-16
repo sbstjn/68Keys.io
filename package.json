@@ -9,6 +9,7 @@
     "build:all": "npm run build:styles && npm run build:scripts && npm run build"
   },
   "dependencies": {
-    "sass": "^1.98.0"
+    "sass": "^1.98.0",
+    "typescript": "^4.9.3"
   }
 }
