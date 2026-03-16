@@ -1,23 +1,14 @@
 {
   "name": "68keys.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "hugo",
+    "start": "hugo server --watch --verbose --bind 0.0.0.0",
+    "build:styles": "sass --style compressed source/styles/main.sass static/styles/main.css",
+    "build:scripts": "tsc",
+    "build:all": "npm run build:styles && npm run build:scripts && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sbstjn/68Keys.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sbstjn/68Keys.io/issues"
-  },
-  "homepage": "https://github.com/sbstjn/68Keys.io#readme",
   "dependencies": {
-    "typescript": "^2.6.2"
+    "sass": "^1.98.0"
   }
 }

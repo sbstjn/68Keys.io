@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 <title>{{ .Title }} - {{ .Site.Title }}</title>
-<link rel="canonical" href="{{ .URL | absLangURL }}">
+<link rel="canonical" href="{{ .Permalink }}">
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 <meta name="robots" content="{{ if isset .Params "robots" }}{{ .Params.robots }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
 
 <meta property="og:locale" content="en_US">
-<meta property="og:url" content="{{ .URL | absLangURL }}">
+<meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
@@ -22,7 +22,7 @@
 
 {{ partial "styles" }}
 
-{{ if eq .URL "/" }}
+{{ if .IsHome }}
 <meta property="og:type" content="website" />
 {{ else }}
 <meta property="og:type" content="article" />
@@ -47,6 +47,8 @@
 
 <meta property="fb:admins" content="669118929"/>
 <meta property="fb:pages" content="2069085893326750"/>
+
+<script defer src="https://track.heft.io/tracker.js" data-site-id="6b3e4672-8ea4-4240-9f37-8d990c859bf3"></script>
 
 <script type="text/javascript">
   /** loadcss **/

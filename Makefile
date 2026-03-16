@@ -1,11 +1,11 @@
 styles:
-	sass --style compressed source/styles/main.sass static/styles/main.css
+	yarn build:styles
 
 styles-watch:
 	sass --style compressed --watch source/styles/main.sass:static/styles/main.css
 
 scripts:
-	tsc
+	yarn build:scripts
 
 scripts-watch:
 	tsc --watch

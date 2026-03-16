@@ -10,6 +10,7 @@ disableKinds:
 
 params:
   robots: INDEX, FOLLOW
+  doge: D8mKpbfGxHgadKdgoewkmXETN4JCgj92Xw
 
 pygmentsUseClasses: true
 
@@ -18,6 +19,3 @@ enableRobotsTXT: true
 taxonomies:
   tag: ''
   category: ''
-
-params:
-  doge: D8mKpbfGxHgadKdgoewkmXETN4JCgj92Xw
